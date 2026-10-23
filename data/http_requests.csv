@@ -1,0 +1,44 @@
+request,label
+/api/v1/orders/1024?fields=id%2Cstatus,Normal
+/search?q=script+writing+course,Normal
+/search?q=rock+%26+roll+records,Normal
+comment=Size 10 = perfect fit; color as shown,Normal
+/profile?user=o'connor&tab=settings,Normal
+"/search?q=""best laptop 2026""",Normal
+product?id=1 UNION SELECT username FROM users,SQL Injection
+search?q=<script>alert(1)</script>,XSS
+product?id=10,Normal
+login?user=admin' OR 1=1 --,SQL Injection
+item?id=2,Normal
+/search?q=how+to+delete+my+account,Normal
+/search?q=html+table+example,Normal
+/search?q=o'reilly+python+book,Normal
+input=<script>document.cookie</script>,XSS
+comment=<img src=x onerror=alert(1)>,XSS
+/search?q=alert+bracelet+medical,Normal
+comment=<svg onload=alert(1)>,XSS
+search?q=' OR 1=1 --,SQL Injection
+search?q=summer,Normal
+/search?q=c%2B%2B+vs+java,Normal
+/search?q=ben+%26+jerry%27s,Normal
+search?q=books,Normal
+/search?q=update+drivers+windows+11,Normal
+/search?q=1%3D1+math+identity,Normal
+search?q=summer+clothes,Normal
+search?q=hello,Normal
+/search?q=%3C3+valentine+card,Normal
+search?q=python,Normal
+/search?q=where+to+buy+tables+and+chairs,Normal
+/search?q=javascript+tutorial+for+beginners,Normal
+search?q=' OR '1'='1,SQL Injection
+/search?q=price+%3C+100+and+rating+%3E+4,Normal
+/search?q=union+jack+flag,Normal
+comment=Great product -- would buy again!&rating=5,Normal
+search?q=flowers,Normal
+/search?q=drop+shipping+suppliers,Normal
+comment=<iframe src=javascript:alert(1)>,XSS
+/search?q=select+a+size+guide,Normal
+login?user='; DROP TABLE users; --,SQL Injection
+search?q=javascript tutorial,Normal
+/search?q=insert+coin+arcade+machine,Normal
+/blog/how-to-choose-a-laptop?utm_source=newsletter,Normal

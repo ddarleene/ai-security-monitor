@@ -1,0 +1,11 @@
+request,label
+"search?q=books",0
+"search?q=python",0
+"search?q=' OR '1'='1",1
+"login?user=admin' OR 1=1 --",1
+"product?id=1 UNION SELECT username FROM users",1
+"search?q=summer+clothes",0
+"item?id=2",0
+"login?user='; DROP TABLE users; --",1
+"product?id=10",0
+"search?q=' OR 1=1 --",1

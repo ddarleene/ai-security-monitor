@@ -1,0 +1,11 @@
+request,label
+"search?q=flowers",0
+"search?q=hello",0
+"search?q=<script>alert(1)</script>",1
+"comment=<img src=x onerror=alert(1)>",1
+"search?q=javascript tutorial",0
+"comment=<svg onload=alert(1)>",1
+"search?q=summer",0
+"input=<script>document.cookie</script>",1
+"search?q=books",0
+"comment=<iframe src=javascript:alert(1)>",1
